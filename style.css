@@ -13,7 +13,7 @@ body{
 .loader{
     position: relative;
     width: 250px;
-    height: 250px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@ body{
     background: linear-gradient(90deg,#ff01eb,#00eaff);
     filter:blur(12px);
     width: 120%;
-    transform: translateY(-100%);
+    transform: translateX(-100%);
     animation: loader 4s linear infinite alternate;
 }
 @keyframes loader {
